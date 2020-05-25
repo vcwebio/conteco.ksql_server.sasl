@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+export CONTECO_LABEL="ksql_server.tocloud - Conteco "
+export CONTECO_DESCRIPTION="Confluent KSQL Server to cloud image, using default configuration."
+
+export CONTECO_TYPE="ksql_server"
+export CONTECO_NAME="tocloud"
+export CONTECO_TAG="5.4.0"
+
+export CONTECO_BASE="external.ksql_server:5.4.0"
+export CONTECO_BUILD="image-base"
